@@ -402,3 +402,10 @@ That’s All Folks
 Let us execute the Spring REST project. In Eclipse you can start Tomcat and run the project inside it. Or you can run the project using Embedded Tomcat using Maven.
 
 Once the application starts successfully, launch the browser and open http://localhost:8080/springrest/customers. This hit the /customers end point and will list down all the customers.
+
+
+
+# run
+```
+mvn tomcat7:run
+```
