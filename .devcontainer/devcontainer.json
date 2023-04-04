@@ -1,35 +1,15 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/java
 {
-	"name": "Spring",
+	"name": "Java",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/java:0-17",
-	"containerName": "my-spring-container",
 
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "none",
 			"installMaven": "true",
 			"installGradle": "false"
-		}
-	},
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"ms-vscode-remote.remote-containers",
-				"vscjava.vscode-spring-boot-dashboard",
-				"vscjava.vscode-java-dependency",
-				"vscjava.vscode-java-debug",
-				"ms-azuretools.vscode-docker",
-				"VisualStudioExptTeam.vscodeintellicode",
-				"VisualStudioExptTeam.intellicode-api-usage-examples",
-				"redhat.java",
-				"vscjava.vscode-maven",
-				"vscjava.vscode-java-pack",
-				"aaron-bond.better-comments",
-				"donjayamanne.githistory",
-				"mhutchie.git-graph"
-			]
 		}
 	}
 
@@ -43,9 +23,5 @@
 	// "customizations": {},
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// ,"remoteUser": "vscode"
-	// ,"mounts": [
-	// 	"source=/dockerco/rootco/vscodeserver/Java/__HOME,target=/home/vscode,type=bind,consistency=cached"
-	// ]
-	
+	// "remoteUser": "root"
 }
