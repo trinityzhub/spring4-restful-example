@@ -408,4 +408,18 @@ Once the application starts successfully, launch the browser and open http://loc
 # run
 ```
 mvn tomcat7:run
+
+
+mvn -Dmaven.tomcat.port=8181 tomcat:run-war
+
+
+
+http://localhost:8181/springrest/customers
+http://localhost:8181/springrest/customers/201
+
+http://localhost:8181/Spring4Rest/customers
+
+
+http://localhost:8181/Spring4Rest/springrest/customers
+
 ```
