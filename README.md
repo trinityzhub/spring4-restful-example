@@ -410,7 +410,7 @@ Once the application starts successfully, launch the browser and open http://loc
 mvn tomcat7:run
 
 
-mvn -Dmaven.tomcat.port=8181 tomcat:run-war
+mvn -Dmaven.tomcat.port=8181 tomcat7:run-war
 
 
 
