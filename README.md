@@ -422,4 +422,7 @@ http://localhost:8181/Spring4Rest/customers
 
 http://localhost:8181/Spring4Rest/springrest/customers
 
+
+https://8080-trinityzhub-spring4mvc9-qlcg8vs0rb8.ws-us93.gitpod.io/springrest/customers
+
 ```
