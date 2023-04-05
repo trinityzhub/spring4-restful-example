@@ -26,11 +26,13 @@ public class CustomerRestController {
 	
 	@GetMapping("/customers")
 	public List getCustomers() {
+		System.out.println("entered getCustomers()");
 		return customerDAO.list();
 	}
 
 	@GetMapping("/customers/{id}")
 	public ResponseEntity getCustomer(@PathVariable("id") Long id) {
+		System.out.println("entered getCustomers("+id+")");
 
 		Customer customer = customerDAO.get(id);
 		if (customer == null) {
