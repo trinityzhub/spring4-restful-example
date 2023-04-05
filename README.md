@@ -407,6 +407,7 @@ Once the application starts successfully, launch the browser and open http://loc
 
 # run
 ```
+## work only in JDK11 and below
 mvn tomcat7:run
 
 
